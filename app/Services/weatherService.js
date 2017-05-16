@@ -29,3 +29,4 @@ var angularWithTS;
         angular.module("angularWithTS").service("angularWithTS.Services.weatherService", weatherService);
     })(Services = angularWithTS.Services || (angularWithTS.Services = {}));
 })(angularWithTS || (angularWithTS = {}));
+//# sourceMappingURL=WeatherService.js.map

@@ -7,7 +7,11 @@ var angularWithTS;
         function Routes() {
         }
         Routes.configureRoutes = function ($routeProvider) {
-            $routeProvider.when("/home", { controller: "angularWithTS.controllers.weatherController", templateUrl: "/app/views/weatherInformation.html", controllerAs: "weatherInformationList" });
+            $routeProvider.when("/home", {
+                controller: "angularWithTS.controllers.weatherController",
+                templateUrl: "/app/views/weatherInformation.html",
+                controllerAs: "weatherInformationList"
+            });
             $routeProvider.otherwise({ redirectTo: "/home" });
         };
         return Routes;
@@ -15,3 +19,4 @@ var angularWithTS;
     Routes.$inject = ["$routeProvider"];
     angularWithTS.Routes = Routes;
 })(angularWithTS || (angularWithTS = {}));
+//# sourceMappingURL=app.routes.js.map

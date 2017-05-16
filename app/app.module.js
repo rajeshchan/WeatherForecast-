@@ -5,3 +5,4 @@ var angularWithTS;
     var app = angular.module("angularWithTS", ['ngRoute']);
     app.config(angularWithTS.Routes.configureRoutes);
 })(angularWithTS || (angularWithTS = {}));
+//# sourceMappingURL=app.module.js.map

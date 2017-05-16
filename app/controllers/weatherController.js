@@ -24,3 +24,4 @@ var angularWithTS;
         angular.module("angularWithTS").controller("angularWithTS.controllers.weatherController", weatherController);
     })(controllers = angularWithTS.controllers || (angularWithTS.controllers = {}));
 })(angularWithTS || (angularWithTS = {}));
+//# sourceMappingURL=weatherController.js.map
